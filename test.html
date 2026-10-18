@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Signup</h2>
+    <form action="/signup" method="POST">
+        Email: <input name="email" required><br>
+        Password: <input name="password" required><br>
+        Name: <input name="name" required><br>
+        Bio: <textarea name="bio"></textarea><br>
+        <button type="submit">Sign up</button>
+    </form>
+
+    <h2>Login</h2>
+    <form action="/login" method="POST">
+        Email: <input name="email"><br>
+        Password: <input name="password"><br>
+        <button type="submit">Log in</button>
+    </form>
+
+    <p>After login, visit <code>/profile/1</code> in your browser.</p>
+</body>
+
+</html>
