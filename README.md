@@ -42,3 +42,4 @@ If signup, login, or profile viewing does not work with normal data, the vulnera
 
 Leaving the repo unlabeled.
 The folder name and README are part of the assignment. Without them, someone might mistake this for real code.# Deliberately-Vulnerable-Login-Form
+# -Exploit-Patch-Secrets-Management
